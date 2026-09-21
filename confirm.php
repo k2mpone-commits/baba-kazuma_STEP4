@@ -6,12 +6,6 @@
   <title>入力内容確認</title>
 </head>
 <body>
-  <?php
-echo "<pre>";
-var_dump($_POST);
-echo "</pre>";
-// exit;
-?>
   <h1>入力内容確認</h1>
   <?php
   //POSTデータを取得
