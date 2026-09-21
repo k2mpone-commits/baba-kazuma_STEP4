@@ -7,42 +7,42 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div>
-    <h1 class="form-container">フォーム入力</h1>
+    <h1>フォーム入力</h1>
+    <div class="form-container">
     <form action="confirm.php" method="post">
 
       <div class="form-item">
-        <label for="name">名前:</label>
+        <label for="name">名前：</label>
         <input type="text" id="name" name="name" required><br><br>
       </div>
 
       <div class="form-item">
-        <label for="age">年齢:</label>
+        <label for="age">年齢：</label>
         <input type="number" id="age" name="age" required><br><br>
       </div>
 
       <div class="form-item">
-        <label for="phone">電話番号:</label><br>
+        <label for="phone">電話番号：</label>
         <input type="tel" id="phone" name="phone" required><br><br>
       </div>
 
       <div class="form-item">
-        <label for="email">メールアドレス:</label><br>
+        <label for="email">メールアドレス：</label>
         <input type="email" id="email" name="email" required><br><br>
       </div>
 
       <div class="form-item">
-        <label for="address">住所:</label><br>
+        <label for="address">住所：</label>
         <input type="text" id="address" name="address" required><br><br>
       </div>
 
       <div class="form-item">
-        <label for="question">質問:</label><br>
+        <label for="question">質問：</label>
         <input type="text" id="question" name="question"><br><br>
       </div>
 
       <div class="form-item">
-        <label for="gender">性別:</label><br>
+        <label for="gender">性別：</label>
         <select id="gender" name="gender" required>
           <option value="">選択してください</option>
           <option value="男性">男性</option>
@@ -51,7 +51,7 @@
         </select><br><br>
       </div>
 
-      <div class="form-item">
+      <div class="submit-button">
         <input type="submit" value="送信">
       </div>
 
